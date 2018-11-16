@@ -146,6 +146,7 @@ textarea {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-style: normal;
 }
 
 .navbar li {
@@ -200,25 +201,25 @@ li.active {
   color: white;
 }
 
-.message {
+.section_head {
   font-family: "Agency FB";
-  color: #141414;
+  background-color: #313333;
+  color: #cccccc;
   font-size: 30px;
   font-weight: bold;
 }
 
+.section_head ul {
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: #313333;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.section_head ul li p {
+  font-size: 18px;
+  font-weight: normal;
+}
 
 
 /* ==========================================================================

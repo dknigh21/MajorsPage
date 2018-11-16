@@ -10,8 +10,10 @@ $(document).ready(function() {
     showSeconds: false,
     callbacks: {
       stop: function() {
-        $(".message").html("Green Flag!")
+        $("#message").html("Green Flag!")
       }
     }
   });
+
+  $("#accordion").accordion();
 });
