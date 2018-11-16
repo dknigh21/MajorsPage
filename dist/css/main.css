@@ -91,6 +91,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#contact {
+  position: absolute;
+}
+
 .wrapper {
   margin-right: auto;
   margin-left: auto;

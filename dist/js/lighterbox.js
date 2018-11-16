@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $(".lighterbox").lighterbox({overlayColor: "white"});
+  $(".lighterbox").lighterbox({overlayColor: "black"});
 });
