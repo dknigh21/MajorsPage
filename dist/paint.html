@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/paint.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+
 </head>
 
 <body>
@@ -40,51 +42,53 @@
 </div>
 
 <div class="wrapper clearfix" id="main-container">
-  <h2> This page will have resources for custom paint schemes </h2>
-  <article>
-    <section>
-      <a href="img/logo_full.png" class="lighterbox">
-        <img src="img/logo_full.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-    <section>
-      <a href="img/logo_red.png" class="lighterbox">
-        <img src="img/logo_red.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-    <section>
-      <a href="img/logo_green.png" class="lighterbox">
-        <img src="img/logo_green.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-    <section>
-      <a href="img/logo_aqua.png" class="lighterbox">
-        <img src="img/logo_aqua.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-    <section>
-      <a href="img/logo_blue.png" class="lighterbox">
-        <img src="img/logo_blue.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-    <section>
-      <a href="img/logo_blank.png" class="lighterbox">
-        <img src="img/logo_blank.png"/>
-        <h2 class="lighterbox-title">Series Logo</h2>
-        <span class="lighterbox-desc">Majors Series Logo</span>
-      </a>
-    </section>
-  </article>
+
+  <div class="main-content clearfix">
+    <div class="main-content left">
+      <h2>Logos and graphics</h2>
+      <article>
+        <section>
+          <a href="img/logo_full.png" data-lightbox="Paint Files">
+            <img src="img/logo_full.png" title="Left-click to display, right-click to save image" />
+          </a>
+        </section>
+        <section>
+          <a href="img/logo_red.png" data-lightbox="Paint Files">
+            <img src="img/logo_red.png" title="Left-click to display, right-click to save image"/>
+          </a>
+        </section>
+        <section>
+          <a href="img/logo_green.png" data-lightbox="Paint Files">
+            <img src="img/logo_green.png" title="Left-click to display, right-click to save image"/>
+          </a>
+        </section>
+        <section>
+          <a href="img/logo_aqua.png" data-lightbox="Paint Files">
+            <img src="img/logo_aqua.png" title="Left-click to display, right-click to save image"/>
+          </a>
+        </section>
+        <section>
+          <a href="img/logo_blue.png" data-lightbox="Paint Files">
+            <img src="img/logo_blue.png" title="Left-click to display, right-click to save image"/>
+          </a>
+        </section>
+        <section>
+          <a href="img/logo_blank.png" data-lightbox="Paint Files">
+            <img src="img/logo_blank.png" title="Left-click to display, right-click to save image"/>
+          </a>
+        </section>
+      </article>
+    </div>
+
+    <div class="main-content right">
+      <h2>Fonts</h2>
+      <p>
+        "M" = Magneto <br>
+        "O" = Arial Black <br>
+        "Majors Series" = Agency FB (Bold)
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="bottom-container">
@@ -93,13 +97,12 @@
   </div>
 </div>
 
-
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="js/lighterbox.js"></script>
-<script src="js/jquery.lighterbox.js"></script>
-
+<script src="js/lightbox.min.js"></script>
+<script src="js/lightbox.js"></script>
 
 </body>
 </html>

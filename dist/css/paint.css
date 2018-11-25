@@ -11,7 +11,7 @@ section {
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -24,16 +24,14 @@ a:hover img {
   opacity: 0.7;
 }
 
-a h2, a span {
-  display: none;
-}
-
 @media (max-width: 500px) {
   h1 {
     font-size: 1.5em;
   }
+
   section {
     max-width: 100%;
     float: none;
   }
 }
+

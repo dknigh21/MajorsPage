@@ -12,7 +12,10 @@
 }
 
 body, html {
-  background-color: whitesmoke;
+  background-color: #171717;
+  font-family: "Agency FB", sans-serif;
+  font-size: 1em;
+
 }
 
 /*
@@ -91,6 +94,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
 .wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -104,10 +115,8 @@ textarea {
 .top-container {
   width: 100%;
   height: 100%;
-  background-color: #141414;
-  color: whitesmoke;
-  font-family: "Agency FB";
-  font-style: italic;
+  background-color: whitesmoke;
+  color: #171717;
   text-align: center;
 }
 
@@ -121,7 +130,6 @@ textarea {
 
 #main-container {
   min-height: 100vh;
-  background-color: white;
 }
 
 #footer{
@@ -172,18 +180,23 @@ li.active {
 
 .main-content {
   margin: 5px;
+  min-height: 100vh;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .main-content.left {
   width: 72%;
+  padding: 10px;
   float: left;
-
+  background-color: white;
 }
 
 .main-content.right {
   width: 25%;
   float: right;
   text-align: center;
+  background-color: white;
 }
 
 #page-header h1 {
@@ -196,30 +209,18 @@ li.active {
 #footer h3 {
   margin: 0;
   padding: 15px;
-  font-family: "Agency FB";
   color: white;
 }
 
 .message {
-  font-family: "Agency FB";
-  color: #141414;
-  font-size: 30px;
   font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ui-tooltip{
+  position: absolute;
+  padding: 10px;
+  background-color: #888888;
+}
 
 /* ==========================================================================
    Helper classes
